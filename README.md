@@ -23,7 +23,7 @@ This project serves as a practical example of building a modular ETL pipeline wi
 
 ## 📂 Project Structure
 
-```plaintext
+\```plaintext
 .
 ├── data/                  # Folder for CSV files
 ├── scripts/               # Python modules: extract.py, transform.py, load.py
@@ -33,7 +33,7 @@ This project serves as a practical example of building a modular ETL pipeline wi
 ├── requirements.txt       # Python dependencies
 ├── README.md              # This documentation
 
-
+\```
 ---
 
 ## ⚙️ How to Use
@@ -42,19 +42,21 @@ This project serves as a practical example of building a modular ETL pipeline wi
 
 2. Create a `.env` file in the project root with your PostgreSQL connection string:
 
-```bash
+\```bash
 DB_URL=postgresql://username:password@host:port/dbname
+
 
 3. Ensure .env is added to .gitignore to avoid committing sensitive data.
 
 4. Install dependencies:
 
-```bash
+\```bash
 pip install -r requirements.txt
+
 
 5. Run the ETL pipeline:
 
-```bash
+\```bash
 python etl.py
 
 
