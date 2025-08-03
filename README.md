@@ -33,7 +33,7 @@ This project serves as a practical example of building a modular ETL pipeline wi
 ├── requirements.txt       # Python dependencies
 ├── README.md              # This documentation
 
-\```
+
 ---
 
 ## ⚙️ How to Use
